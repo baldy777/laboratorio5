@@ -30,6 +30,6 @@ class TestGestionAlumnos(unittest.TestCase):
         resultado = buscar_alumno(self.alumnos, "Carlos")
         self.assertIsNone(resultado)
 
-'''inicializacion de metodo unittest '''
+'''inicializacion de metodo unittest'''
 if __name__ == "__main__":
     unittest.main()

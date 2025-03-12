@@ -24,7 +24,7 @@ if __name__ == "__main__":
 
     resultado = buscar_alumno(alumnos, nombre_buscar)
 
-    '''condicional simple para mostrar datos por terminal '''
+    '''condicional simple para mostrar datos por terminal'''
     if resultado:
         print(f"Alumno encontrado: {resultado}")
     else:
